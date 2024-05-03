@@ -9,7 +9,7 @@ import NavMenu from './components/NavMenu.vue'
         <NavMenu/>
       </el-header>
       <el-main>
-        <router-view>
+        <router-view/>
       </el-main>
       <el-footer>
 
