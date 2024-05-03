@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import NavMenu from './components/NavMenu.vue'
+<script setup>
+  import NavMenu from './components/NavMenu.vue'
 </script>
 
 <template>
@@ -22,6 +22,7 @@ import NavMenu from './components/NavMenu.vue'
 .nav_menu {
   position: relative;
   top: 0;
-  padding: 0%;
+  left: 0;
+  right: 0;
 }
 </style>
