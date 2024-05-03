@@ -6,7 +6,7 @@ import NavMenu from './components/NavMenu.vue'
   <div class="common-layout">
     <el-container>
       <el-header class="nav_menu">
-        <NavMenu/>
+        <NavMenu />
       </el-header>
       <el-main>
         <router-view/>
@@ -19,12 +19,9 @@ import NavMenu from './components/NavMenu.vue'
 </template>
 
 <style scoped>
-
-.nav_menu{
-  position: fixed;
+.nav_menu {
+  position: relative;
   top: 0;
-  left: 5px;
-  right: 5px;
+  padding: 0%;
 }
-
 </style>
