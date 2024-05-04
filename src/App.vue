@@ -1,5 +1,6 @@
 <script setup>
   import NavMenu from './components/NavMenu.vue'
+  import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -11,8 +12,8 @@
       <el-main>
         <router-view/>
       </el-main>
-      <el-footer>
-
+      <el-footer class="footer">
+        <Footer/>
       </el-footer>
     </el-container>
   </div>
@@ -21,8 +22,9 @@
 <style scoped>
 .nav_menu {
   position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
 }
 </style>
