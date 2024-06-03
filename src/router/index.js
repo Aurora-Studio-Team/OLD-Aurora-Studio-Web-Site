@@ -33,7 +33,7 @@ const router = createRouter({
 })
 // 设置网页的标题
 router.beforeEach((to, from, next) => {
-    document.title = to.meta.title ? to.meta.title + " - Aurora Studio" : 'Aurora Studio'
+    document.title = to.meta.title ? to.meta.title + " - Aurora Studio" : 'TITLE'
     next()
 }
 )
