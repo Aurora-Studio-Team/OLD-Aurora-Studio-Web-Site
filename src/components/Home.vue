@@ -45,10 +45,10 @@
                 <h1>快速启动和管理您的 <br/>Minecraft 游戏</h1>
                 <p>Aurora Star Launcher <br/>采用全新的.NET8.0,<br/>界面美观,启动迅速!</p>
                 <br/>
-                <el-button size="large" type="primary" round><a href="./Apps">了解产品</a></el-button>    
+                <el-button size="large" type="primary" round><a style="color: white;" href="./Apps">了解产品</a></el-button>    
             </div>
             <div class="Show-Apps-Card-Picture">
-                <img src="/img/ASL.png" alt="ASL"/>
+                <img style="width: 250px;height: 250px;" src="/img/ASL.png" alt="ASL"/>
             </div>
         </div>
     </div>
@@ -107,7 +107,7 @@
     .Show-Apps-Card{
         text-align: left;
         margin-left: 5%;
-        width: 60%;
+        width: 70%;
         border-radius: 10px;
         display:inline-block;
     }
@@ -150,10 +150,6 @@
     }
     .Show-Apps-Card-Picture{
         text-align: right;
-        border-radius: 10px;
-        margin-right: 5%;
-        width: 250px;
-        height: 250px;
         display:inline-block;
     }
 </style>

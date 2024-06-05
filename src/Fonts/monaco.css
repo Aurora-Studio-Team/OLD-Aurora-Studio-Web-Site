@@ -1,0 +1,7 @@
+@font-face {
+    /* Monaco */
+    font-family: 'monaco';  
+    src: url('Monaco.ttf') format('otf');
+    font-weight: normal;  
+    font-style: normal; 
+}

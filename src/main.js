@@ -5,7 +5,7 @@ import 'element-plus/dist/index.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import App from './App.vue'
 import router from './router';
-
+import "./Fonts/monaco.css"
 
 createApp(App).mount('#app')
 const app = createApp(App)
