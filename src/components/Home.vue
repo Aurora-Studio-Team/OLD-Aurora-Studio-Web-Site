@@ -56,8 +56,8 @@
         <h2 style="text-align: center">常见问题回答</h2>
         <br/>
         <div class="QandA-Card">
-            <h3>Q：我现在的应用程序无法在我的计算机上运行?</h3>
-            <p>A:：你可以尝试安装 .Net8.0 运行库.</p>
+            <h3>Q: 我现在的应用程序无法在我的计算机上运行?</h3>
+            <p>A: 你可以尝试安装 .Net8.0 运行库.</p>
             <br/>
         </div>
     </div>
